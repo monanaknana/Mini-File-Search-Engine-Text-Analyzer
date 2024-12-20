@@ -6,6 +6,9 @@ ITT440 INDIVIDUAL PROJECT
 
 A Python-based project designed for managing and analyzing text data in `.txt` and `.pdf` files. This project combines a graphical user interface (GUI) with powerful text analysis and file search capabilities.
 
+## Video Presentation
+**https://youtu.be/LrVJZF44ZOg**
+
 ## Features
 
 - **File Analysis**:
