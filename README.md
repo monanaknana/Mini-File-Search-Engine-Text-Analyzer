@@ -1,2 +1,3 @@
 # Mini-File-Search-Engine-Text-Analyzer
+NURUL IZZAH [CS2554B]
 ITT440 INDIVIDUAL PROJECT 
