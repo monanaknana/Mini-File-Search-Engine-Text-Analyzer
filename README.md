@@ -3,15 +3,80 @@ NURUL IZZAH [CS2554B] |
 ITT440 INDIVIDUAL PROJECT 
 
 
+A Python-based project designed for managing and analyzing text data in .txt and .pdf files. This project combines a graphical user interface (GUI) with powerful text analysis and file search capabilities.
 
-![11](https://github.com/user-attachments/assets/f67d7386-d0d0-4af5-82b3-eafde851a6b8)
-![10](https://github.com/user-attachments/assets/d9054342-37d3-4abf-8946-4c82b38a9884)
-![9](https://github.com/user-attachments/assets/0ad2e946-d881-42f9-8959-6ad416253903)
-![8](https://github.com/user-attachments/assets/8305e734-45d3-45b4-ad72-843c7f6994d1)
-![7](https://github.com/user-attachments/assets/b66adf94-1ca6-4707-b032-6271c995739a)
-![6](https://github.com/user-attachments/assets/23ff16c0-5203-48d1-9bb1-ad96e37dbe80)
-![5](https://github.com/user-attachments/assets/55e47c71-e654-4e72-944f-2f95900c5c8f)
-![4](https://github.com/user-attachments/assets/f724fd1e-d1c3-4e5c-b2a3-0b706cf1c3a8)
-![3](https://github.com/user-attachments/assets/b7736aeb-95ff-4238-955f-d5e532cccf0a)
-![2](https://github.com/user-attachments/assets/91fb8bd2-d81b-4781-8294-3060fe4364dd)
-![1](https://github.com/user-attachments/assets/3c7c9f64-9b06-4302-b1dd-f08ec45cc539)
+Features
+File Analysis:
+
+Supports .txt and .pdf file formats.
+Displays file summary: total lines, words, and occurrences of specific search terms.
+Highlights matching lines in real-time.
+PDF Highlighting:
+
+Generates a highlighted version of the PDF with marked occurrences of the search term.
+Opens the highlighted PDF for preview.
+User Interface:
+
+Built with tkinter and customtkinter.
+User-friendly interface for browsing files, entering search terms, and viewing results.
+Styled for enhanced user experience (e.g., alternating row colors in tables).
+Cross-Platform Support:
+
+Compatible with Windows, macOS, and Linux for PDF previews.
+Code Implementation
+Core Functionality:
+File type detection and analysis.
+PDF text extraction using PyPDF2 and highlighting using fitz (PyMuPDF).
+Regex-based search term highlighting.
+File Structure:
+file_search_engine.py: Core functionality for file search and analysis.
+gui.py: User interface design and logic.
+main.py: Main entry point for launching the application.
+How to Use
+Launch the Application:
+
+Run main.py using Python 3.7 or later.
+Select a File:
+
+Click "Browse" to open a file selection dialog.
+Choose a .txt or .pdf file.
+Analyze the File:
+
+Enter a search term in the input box.
+Click "Search & Analyze" to process the file.
+View results including file summary and highlighted matching lines.
+Preview Highlights (for PDFs):
+
+Click "Preview Highlights" to generate a highlighted PDF.
+The highlighted PDF will open in your default viewer.
+Challenges and Solutions
+Diverse File Formats:
+
+Modularized functions for .txt and .pdf files using specific libraries like PyPDF2.
+Accurate Highlighting:
+
+Utilized fitz for precise text extraction and visual annotations.
+Error Handling:
+
+Structured error handling for invalid files or empty search terms.
+Cross-Platform Compatibility:
+
+Used platform-specific commands to ensure PDF preview functionality.
+Future Enhancements
+Expand file format support (e.g., .docx, .xlsx).
+Introduce advanced analytics like readability, keyword distribution, and sentiment analysis.
+Enable cloud integration with Google Drive or Dropbox.
+Optimize large PDF handling.
+Create a mobile-friendly version.
+Add dark mode, search history, and exportable analysis reports.
+System Requirements
+Python 3.7 or higher.
+Dependencies:
+PyPDF2
+fitz (PyMuPDF)
+customtkinter
+Appendix
+Libraries Used
+os, re, tkinter, customtkinter for file handling and GUI.
+PyPDF2 and fitz (PyMuPDF) for PDF processing.
+subprocess and platform for platform-specific functionality.
