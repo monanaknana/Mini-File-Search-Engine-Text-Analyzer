@@ -9,6 +9,9 @@ A Python-based project designed for managing and analyzing text data in `.txt` a
 ## Video Presentation
 **https://youtu.be/LrVJZF44ZOg**
 
+## E-Book
+**https://cdn3.me-qr.com/pdf/5309b3f7-a56f-4f93-84b0-5f546a3f49a9.pdf**
+
 ## Features
 
 - **File Analysis**:
