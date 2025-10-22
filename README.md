@@ -10,7 +10,7 @@ A Python-based project designed for managing and analyzing text data in `.txt` a
 **https://youtu.be/LrVJZF44ZOg**
 
 ## E-Book
-**https://ind-itt440-nurul-izzah-jamadi.tiiny.site**
+**IND-ITT440_NURUL IZZAH JAMADI.pdf**
 
 ## Features
 
