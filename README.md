@@ -1,5 +1,5 @@
 # INDIVIDUAL PROJECT
-NURUL IZZAH [CS2554B] |
+
 
 
 # File Search Engine & Text Analyzer
@@ -8,9 +8,6 @@ A Python-based project designed for managing and analyzing text data in `.txt` a
 
 ## Video Presentation
 **https://youtu.be/LrVJZF44ZOg**
-
-## E-Book
-**IND-ITT440_NURUL IZZAH JAMADI.pdf**
 
 ## Features
 
